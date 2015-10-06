@@ -23,6 +23,7 @@ body{
 #hello {
     color: white;
     font-size: 20px;
+    margin-top: 80px;
     margin-bottom: 8px;
     text-align: center;
     -webkit-font-smoothing: antialiased;
@@ -42,10 +43,6 @@ body{
     text-align: center;
     margin-bottom: 16px;
     -webkit-font-smoothing: antialiased;
-}
-
-.sidebar li:hover {
-    color: rgba(255,255,255,1);
 }
 
 .toggle {
@@ -71,8 +68,8 @@ body{
     top: 0px;
     left: -100%;
     bottom: 0px;
-    width: 120px;
-    padding: 30px;
+    width: 130px;
+    padding: 15px;
     background: #333;
     transition: all 0.25s ease-in-out;
     
