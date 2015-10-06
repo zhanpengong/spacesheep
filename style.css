@@ -23,7 +23,7 @@ body{
 #hello {
     color: white;
     font-size: 20px;
-    margin-top: 80px;
+    margin-top: 250px;
     margin-bottom: 8px;
     text-align: center;
     -webkit-font-smoothing: antialiased;
@@ -69,7 +69,7 @@ body{
     left: -100%;
     bottom: 0px;
     width: 130px;
-    padding: 15px;
+    padding: 35px;
     background: #333;
     transition: all 0.25s ease-in-out;
     
