@@ -200,6 +200,11 @@ figcaption {
     transition: all 0.3s ease-in-out;
 }
 
+.instag {
+    text-align: center;
+    margin-top: 100px;
+}
+
 figure:hover figcaption {
       left: 0%; }
 
