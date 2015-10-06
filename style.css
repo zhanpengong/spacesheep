@@ -1,0 +1,277 @@
+/* Base style */
+
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif; 
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.space {
+    height: 20px;
+}
+
+.maincontent {
+    position: relative;
+    z-index: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Navbar*/
+
+.toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.toggle:hover {
+    color: #33CCFF;
+}
+
+
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    bottom: 0px;
+    width: 120px;
+    padding: 30px;
+    background: #333;
+    transition: all 0.25s ease-in-out;
+    
+}
+
+.sidebar li {
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    margin-bottom: 16px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    color: rgba(255,255,255,1);
+}
+
+#sidebartoggler {
+    display: none;
+}
+
+#sidebartoggler:checked + .pagewrap .sidebar {
+    left: 0px; }
+
+#sidebartoggler:checked + .pagewrap .toggle {
+    left: 200px; }
+  
+/* Parallex */
+
+.content {
+    padding: 100px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.parallex {
+    position: relative;
+    height: 600px;
+    background-image: url(images/second/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 600;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.logo {
+    height: 177px;
+    width: 100%;
+    background-image: url(images/parallex/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin-top: 217px;
+    z-index: 15;
+}
+
+.front {
+    width: 440px;
+    height: 279px;
+    background-image: url(images/second/front.png);
+    position: absolute;
+    margin-left: 736px;
+    margin-top: 289px;
+    z-index: 20;
+}
+
+.back {
+    width: 152px;
+    height: 426px;
+    background-image: url(images/second/thinback.png);
+    position: absolute;
+    margin-left: 405px;
+    margin-top: 23px;
+    z-index: 10;
+}
+
+.bigback {
+    width: 471px;
+    height: 430px;
+    background-image: url(images/second/bigback.png);
+    position: absolute;
+    margin-left: 251px;
+    margin-top: 65px;
+    z-index: 10;
+}
+
+.slogan {
+    width: 607px;
+    height: 78px;
+    background-image: url(images/second/designtheworld.jpg);
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 108px;
+    z-index: 12;
+}
+
+/*Display pictures*/
+
+#itemscontainer {
+        display: block;
+        height: 1060px;
+        width: 870px;
+        margin: 0 auto;
+    cursor: pointer;
+}
+
+.floated_img
+{
+    float: left;
+    margin: 7px;
+}
+
+
+.items {
+    display: block;
+    position: relative;
+    width: 270px;
+    height: 250px;
+    margin: 0px;
+    
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+.items:hover {
+    transform: scale(1.1);
+}
+
+figure {
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+figcaption {
+    position: absolute;
+    left: -100%;
+    width: 270px;
+    height: 250px;
+    bottom: 0px;
+    color: black;
+    background: rgba(255, 255, 25, 0.9);
+    padding-right: 6px;
+    
+    
+    transition: all 0.3s ease-in-out;
+}
+
+figure:hover figcaption {
+      left: 0%; }
+
+#itemscontainer figure {
+  position: relative;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.3s ease-in-out; 
+}
+
+#itemscontainer figure.isshowing {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+/*Persiscope*/
+
+.periscope {
+    height: 640px;
+    width: 640px;
+    background-image: url(images/getshitdone2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 75px;
+    position: relative
+    
+}
+
+.periscope2 {
+    height: 640px;
+    width: 640px;
+    background-color: #FFFF19;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 75px;
+    position: relative
+    
+}
+
+.windowtint {
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+
+
+.cta {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+    border: 7px solid black;
+    padding: 7px 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cta:hover {
+    border: 7px solid black;
+    background: black;
+    color: #FFFF19;
+}
