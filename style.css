@@ -89,7 +89,7 @@ ul {
 .parallex {
     position: relative;
     height: 600px;
-    background-image: url(images/second/bg.jpg);
+    background-image: url(https://cloud.githubusercontent.com/assets/6488815/10300197/6852b5c0-6c26-11e5-9610-9eb286546c2b.jpg);
     background-repeat: no-repeat;
     background-size: auto 600;
     background-position: top center;
@@ -100,7 +100,7 @@ ul {
 .logo {
     height: 177px;
     width: 100%;
-    background-image: url(images/parallex/logo.jpg);
+    background-image: url(https://cloud.githubusercontent.com/assets/6488815/10300223/782658d0-6c26-11e5-8ce2-f2e46a2a4d65.jpg);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -111,7 +111,7 @@ ul {
 .front {
     width: 440px;
     height: 279px;
-    background-image: url(images/second/front.png);
+    background-image: url(https://cloud.githubusercontent.com/assets/6488815/10300195/6849a2f0-6c26-11e5-89a8-3a407fce5891.png);
     position: absolute;
     margin-left: 736px;
     margin-top: 289px;
@@ -121,7 +121,7 @@ ul {
 .back {
     width: 152px;
     height: 426px;
-    background-image: url(images/second/thinback.png);
+    background-image: url(https://cloud.githubusercontent.com/assets/6488815/10300198/68543756-6c26-11e5-90d6-505c98c3b69e.png);
     position: absolute;
     margin-left: 405px;
     margin-top: 23px;
@@ -131,7 +131,7 @@ ul {
 .bigback {
     width: 471px;
     height: 430px;
-    background-image: url(images/second/bigback.png);
+    background-image: url(https://cloud.githubusercontent.com/assets/6488815/10300193/6846d98a-6c26-11e5-84b0-0c0aef77bcdf.png);
     position: absolute;
     margin-left: 251px;
     margin-top: 65px;
@@ -141,7 +141,7 @@ ul {
 .slogan {
     width: 607px;
     height: 78px;
-    background-image: url(images/second/designtheworld.jpg);
+    background-image: url(https://cloud.githubusercontent.com/assets/6488815/10300194/68488064-6c26-11e5-82cc-3a91d64a4df0.jpg);
     position: absolute;
     margin-left: 530px;
     margin-top: 108px;
