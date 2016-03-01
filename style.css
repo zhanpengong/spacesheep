@@ -8,6 +8,10 @@ body{
     padding: 0px;
 }
 
+.pagewrap {
+    max-width: 1200px;
+}
+
 .space {
     height: 20px;
 }
